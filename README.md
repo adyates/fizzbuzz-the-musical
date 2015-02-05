@@ -8,7 +8,6 @@ Rules for Fizz Buzz Musical
   4) Add README governing the development of that language based on regular principles / satires of the language
   5) Refactor Fizz Buzz to grow while passing the Fizz Buzz
 
-
 Fizz Buzz Specification to Work with
 
  * Print the numbers 1-100
