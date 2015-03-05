@@ -1,0 +1,3 @@
+# Ignore all build process files and folders
+.gradle/*
+.build/*
