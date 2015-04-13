@@ -14,5 +14,5 @@ Fizz Buzz Specification to Work with
  * If the number is:
    * Divisible by 3: Print Fizz
    * Divisible by 5: Print Buzz
-   * Divisible by 3 and 5: Print Fizz Buzz
+   * Divisible by 3 and 5: Print FizzBuzz
   
