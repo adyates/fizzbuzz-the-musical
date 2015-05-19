@@ -3,3 +3,14 @@
 
 # Ignore installed node modules
 nodejs/node_modules/*
+
+# Ignore Eclipse files
+.project
+.settings/com.eclipsesource.jshint.ui.prefs
+
+# Ingore OS nonsense
+.DS_Store
+
+# Ignore build artifacts
+nodejs/build/*.
+
