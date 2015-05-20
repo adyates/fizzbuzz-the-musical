@@ -6,7 +6,8 @@ var fizzBuzzComputer = function(number) {
 
 function sodaBee(number) {
 	var result = '';
-	for (var i = 1; i <= number; i += 1) {
+	var i;
+	for (i = 1; i <= number; i += 1) {
 		result += fizzBuzzComputer(i);
 	}
 	return result;
