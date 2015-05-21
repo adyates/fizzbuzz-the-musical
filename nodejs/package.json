@@ -1,0 +1,17 @@
+{
+  "name": "fizzbuzz-the-musical",
+  "version": "1.0.0",
+  "description": "Headless FizzBuzz implementation",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "adyates",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-mocha": "^2.0.1",
+    "mocha": "^2.2.4"
+  }
+}
