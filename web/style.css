@@ -38,11 +38,11 @@ span:nth-child(5n + 5)::before {
 @-webkit-keyframes transition {
 	from { margin-left:0%; width:300%; opacity:0; display:block}
 	20% {opacity: 0}
-    35% {opacity:50}
-    50% {opacity:100}
-    65% {opacity:50}
-    80% {opacity: 0}
-    to { margin-left:100%; width:100%; opacity:0; display:none}
+	35% {opacity: 50}
+	50% {opacity: 100}
+	65% {opacity: 50}
+	80% {opacity: 0}
+	to { margin-left:100%; width:100%; opacity:0; display:none}
 }
 
 .fizzbuzz-display {
