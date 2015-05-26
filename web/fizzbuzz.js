@@ -16,5 +16,5 @@ function createSodaBee(e) {
 // Make the new one when the previous ends
 sodaBeeDisplay.addEventListener('webkitAnimationEnd', createSodaBee, false);
 
-//Kick this thing off by animating the initial span
+// Kick this thing off by animating the initial span
 sodaBeeDisplay.children[0].className = 'sodabee';

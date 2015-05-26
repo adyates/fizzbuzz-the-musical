@@ -1,5 +1,5 @@
 body {
-   counter-reset: sodabee;	
+	counter-reset: sodabee;
 }
 
 span {
@@ -8,15 +8,15 @@ span {
 
 .sodabee {
 	counter-increment: sodabee;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-name: transition;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;	
+	-webkit-animation-duration: 2s;
+	-webkit-animation-name: transition;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
 }
 
 .fling {
 	position: absolute;
-	margin-left: -1000%;	
+	margin-left: -1000%;
 }
 
 span.sodabee:nth-child(3n + 3)::before {
@@ -24,15 +24,15 @@ span.sodabee:nth-child(3n + 3)::before {
 }
 
 span:nth-child(5n + 5)::after {
-    content: "Buzz";
+	content: "Buzz";
 }
 
 span:nth-child(5n + 5)::before {
-    content: "";
+	content: "";
 }
 
 .sodabee::before {
-    content: counter(sodabee);
+	content: counter(sodabee);
 }
 
 @-webkit-keyframes transition {
@@ -42,15 +42,15 @@ span:nth-child(5n + 5)::before {
     50% {opacity:100}
     65% {opacity:50}
     80% {opacity: 0}
-	to { margin-left:100%; width:100%; opacity:0; display:none}
+    to { margin-left:100%; width:100%; opacity:0; display:none}
 }
 
 .fizzbuzz-display {
-    display: flex;
-    height: 800px;
-    flex-flow: column;  
+	display: flex;
+	height: 800px;
+	flex-flow: column;
 }
 
 .spacer {
-    flex: auto;
+	flex: auto;
 }
