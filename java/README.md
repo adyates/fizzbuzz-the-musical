@@ -10,5 +10,5 @@ Special Rules for development:
 
 Evolution History:
 
-  * [https://github.com/adyates/fizzbuzz-the-musical/pull/2](v1): Basic Java version 
-  * [https://github.com/adyates/fizzbuzz-the-musical/pull/3](v2): Introduce the Factory pattern 
+  * [Version 1](https://github.com/adyates/fizzbuzz-the-musical/pull/2): Basic Java version 
+  * [Version 2](https://github.com/adyates/fizzbuzz-the-musical/pull/3): Introduce the Factory pattern 
