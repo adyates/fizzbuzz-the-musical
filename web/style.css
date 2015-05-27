@@ -1,0 +1,56 @@
+body {
+	counter-reset: sodabee;
+}
+
+span {
+	font-size: 5em;
+}
+
+.sodabee {
+	counter-increment: sodabee;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-name: transition;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+}
+
+.fling {
+	position: absolute;
+	margin-left: -1000%;
+}
+
+span.sodabee:nth-child(3n + 3)::before {
+	content: "Fizz";
+}
+
+span:nth-child(5n + 5)::after {
+	content: "Buzz";
+}
+
+span:nth-child(5n + 5)::before {
+	content: "";
+}
+
+.sodabee::before {
+	content: counter(sodabee);
+}
+
+@-webkit-keyframes transition {
+	from { margin-left:0%; width:300%; opacity:0; display:block}
+	20% {opacity: 0}
+	35% {opacity: 50}
+	50% {opacity: 100}
+	65% {opacity: 50}
+	80% {opacity: 0}
+	to { margin-left:100%; width:100%; opacity:0; display:none}
+}
+
+.fizzbuzz-display {
+	display: flex;
+	height: 800px;
+	flex-flow: column;
+}
+
+.spacer {
+	flex: auto;
+}
