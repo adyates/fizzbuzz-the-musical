@@ -9,4 +9,4 @@ Special rules for development
 
 Evolution History
 
-  * [https://github.com/adyates/fizzbuzz-the-musical/pull/8](v1): Base version
+  * [Version 1](https://github.com/adyates/fizzbuzz-the-musical/pull/8): Base version

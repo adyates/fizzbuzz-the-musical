@@ -11,4 +11,4 @@ Special Rules for development
 
 Evolution History
 
-  * [https://github.com/adyates/fizzbuzz-the-musical/pull/9](v1): Base version, using Pure for formatting
+  * [Version 1](https://github.com/adyates/fizzbuzz-the-musical/pull/9): Base version, using Pure for formatting
