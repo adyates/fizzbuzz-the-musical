@@ -2,7 +2,7 @@
 *~
 
 # Ignore installed node modules
-nodejs/node_modules/*
+**/node_modules/*
 
 # Ignore Eclipse files
 .project
@@ -12,5 +12,5 @@ nodejs/node_modules/*
 .DS_Store
 
 # Ignore build artifacts
-nodejs/build/*.
+**/build/*
 
