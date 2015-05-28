@@ -8,17 +8,18 @@ What is Code Bowling?
 =====================
 
 In my mind, it's the natural opposite of code golf.  And, like real bowling, every language probably has an
-upper limit to the amount of code bloat you can add while still adding novel and unique patterns.  Or so
-I would like to believe.
+upper limit to the amount of code bloat you can add while still adding novel and unique (without going 
+"avant-garde") patterns.  Or so I would like to believe.
 
 
 What is Fizz Buzz?
 ==================
 
-Google it.  If for some reason you ended up here while doing so, you ended up in one of two likely use cases:
+Generally, you should always start by [trying to Google it first](http://lmgtfy.com/?q=What+is+Fizz+Buzz%3F).
+If for some reason you ended up here while doing so, you ended up in one of two likely use cases:
   
-  * You really don't know what it is: Add "Jeff Atwood" to your search
-  * You're looking for an implementation: You're welcome, but if you plan on using any of these for 
+  * You don't know why this is interesting: Add "Jeff Atwood" to your search
+  * You're looking for an implementation: You're... welcome?  But if you plan on using any of these for 
     an evaluation scenario (interview, school assignment, what have you) I can guarantee you have already
     failed.  This repository is a beautiful train wreck waiting to happen.
 
@@ -104,5 +105,8 @@ because you have to know the passions of the community for it to be truly effect
 even though it's technically a rant.
 
 Of course, the other reason people learn a language is for the exposure to the hot-and-exotic
-<insert desired gender here>.  That doesn't really apply in my case, but being able to connect with people
-over language prejudices and passions is more or less the same thing.  At least, I'd like to think so.
+`<insert desired gender here>` for mating purposes.  That doesn't really apply in my case, but being able
+to connect with people over language prejudices and passions is more or less the same thing.  At least,
+I'd like to think so.
+
+
