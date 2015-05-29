@@ -15,11 +15,10 @@ module.exports = function(grunt){
 			}
 		}
 	});
-	
+
 	grunt.registerTask('default', ['shell:javaTest', 'shell:nodejsTest', 'test-web']);
 
 	grunt.registerTask('test-web', 'Tests the HTML5/CSS3 version', function() {
 		grunt.log.writeln('Still need to implement a test process for web/...');
 	});
-	
 };
