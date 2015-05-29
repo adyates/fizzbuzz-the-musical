@@ -1,8 +1,8 @@
 # Ignore Emacs temp files
 *~
 
-# Ignore installed node modules
-nodejs/node_modules/*
+# Ignore all installed node modules
+**/node_modules/*
 
 # Ignore Eclipse files
 .project
@@ -11,6 +11,6 @@ nodejs/node_modules/*
 # Ingore OS nonsense
 .DS_Store
 
-# Ignore build artifacts
-nodejs/build/*.
+# Ignore all build artifacts
+**/build/*
 

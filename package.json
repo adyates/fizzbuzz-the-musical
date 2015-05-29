@@ -1,0 +1,15 @@
+{
+  "name": "meta-fizzbuzz",
+  "version": "1.0.0",
+  "description": "Meta management of Fizz Buzz the Musical",
+  "author": "adyates",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/adyates/fizzbuzz-the-musical.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-shell": "^1.1.2",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}
