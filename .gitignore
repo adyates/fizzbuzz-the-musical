@@ -11,6 +11,6 @@
 # Ingore OS nonsense
 .DS_Store
 
-# Ignore all build artifacts
+# Ignore all build/compilation artifacts
 **/build/*
-
+*.pyc
