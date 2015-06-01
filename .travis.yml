@@ -5,7 +5,9 @@ jdk:
   
 before_install:
   - curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
-  - sudo apt-get install -y nodejs
+  - sudo apt-get install -y nodejs python-setuptools
+  - sudo easy_install pip
+  - sudo pip install -r python/requirements.txt
   
 install:
   - cd nodejs; npm install; cd ../
