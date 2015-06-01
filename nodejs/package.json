@@ -7,6 +7,10 @@
     "test": "karma start"
   },
   "author": "adyates",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/adyates/fizzbuzz-the-musical.git"
+  },
   "devDependencies": {
     "chai": "^2.3.0",
     "gulp": "^3.8.11",
